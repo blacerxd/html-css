@@ -1,0 +1,108 @@
+h1, h3{
+    color: white;
+    margin: 0;
+    width: 50%;
+}
+
+body{
+    margin: 0;
+    background-color: #180052;
+    font-family: sans-serif;
+}
+
+h3{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    margin: 0;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.scroll{
+    display: flex;
+    overflow-x: scroll;
+    padding: 50px 0 50px 50px;
+}
+
+.block1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 214px;
+    /* height: 541px; */
+    margin-right: 20px;
+}
+.block2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 448px;
+    margin-right: 30px;
+}
+
+.block3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 224px;
+    height: 430px;
+}
+.pink{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin: 0 10px 10px 0;
+}
+.pink1{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+}
+
+.middle-pink{
+    background-color: pink;
+    width: 214px;
+    height: 99px;
+    margin-bottom: 10px;
+}
+.middle-green{
+    background-color: green;
+    width: 210px;
+    height: 99px;
+    margin: 0 10px 10px 0;
+}
+
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 0 10px 10px 0;
+}
+
+.green1{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 0 10px 10px 0
+}
+.container{
+    background-color: #180052;
+    padding: 50px 0 50px 50px;
+}
+
+.purple{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    margin: 0 10px 10px 0;
+}
+.purple1{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    margin: 0 10px 10px 0;
+}

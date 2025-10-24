@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofee Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1 >Coffee blog</h1>
+        <form>
+            <div class="title">
+                <label for="name">Название напитка</label>
+                <input type="text" name="name" placeholder="Название">
+            </div>
+
+            <div class="sort">
+                <label for="sort_cofee">Сорт кофе</label>
+                <select name="sort_cofee">
+                    <option>Арабика</option>
+                    <option>Робуста</option>
+                    <option>Либерика</option>
+                </select>
+            </div>
+
+            <div class="strong">
+                <label><strong>Крепкость обжарки</strong></label>
+                <div class="strong_option">
+                    <label><input type="radio" name="roast" value="Крепкая"> Крепкая </label>
+                    <label><input type="radio" name="roast" value="Средняя" checked> Средняя </label>
+                    <label><input type="radio" name="roast" value="Легкая"> Легкая </label>
+                </div>
+            </div>
+
+            <div class="image">
+                <label for="img">Изображение</label>
+                <input type="url" name="img" placeholder="Введите URL">
+            </div>
+
+            <div class="cost">
+                <label for="price">Стоимость</label>
+                <input type="number" name="price" placeholder="">
+            </div>
+
+            <div class="description">
+                <label for="descr">Описание</label>
+                <textarea type="text" name="descr" id="descr" placeholder="Какое утро без кофе?"></textarea>
+            </div>
+
+            <button type="submit">Добавить</button>
+        </form>
+
+        <table id="table" class="order-table">
+            <thead>
+                <tr>
+                    <th class="elements">Изображение</th>
+                    <th class="elements">Название</th>
+                    <th class="elements">Сорт</th>
+                    <th class="elements">Крепкость обжарки</th>
+                    <th class="elements">Стоимость</th>
+                    <th>Описание</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
