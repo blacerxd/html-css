@@ -1,4 +1,48 @@
 body{
-    padding: 20px 300px 20px 300px; 
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 380px 20px 380px; 
+}
+.home{
+    margin: 0;
+    display: flex;
+    position: right;
+}
+
+.home p{
+    color: black;
+    margin: 0;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.main{
+    padding: 0px 380px 0px 380px; 
+}
+.text-up{
+    text-align: center;
+    font-size: 35px;
+}
+
+.text-up p{
+    text-decoration: none;
+    margin: 0;
+    padding: 0px 250px 0px 250px;
+    font-size: 20px;
+    text-align: center;
+    word-spacing: 1px;
+}
+#image{
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    header{
+        padding: 10px;
+    }
 }
