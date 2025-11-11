@@ -134,8 +134,134 @@ footer p{
     margin: 49px 730px 49px 730px;
     text-align: center;
 }
+@media (max-width: 1024px) {
+    .block1{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .block2{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .block3{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .block4{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .block5{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .block6{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    header {
+        padding: 20px 80px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main {
+        padding: 0 30px;
+    }
+
+    #content {
+        justify-content: center;
+    }
+
+    footer p {
+        margin: 20px;
+    }
+    .text-up p{
+        padding: 0;
+    }
+}
+
+
 @media (max-width: 768px) {
-    header{
+    .block1{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .block2{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .block3{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .block4{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .block5{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .block6{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    header {
+        flex-direction: column;
         padding: 10px;
+        text-align: center;
+    }
+
+    .logo{
+        width: 120px;
+        height: auto;
+    }
+
+    .home {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .home p {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .main {
+        padding: 0 20px;
+    }
+
+    .text-up {
+        font-size: 24px;
+    }
+
+    .text-up p {
+        padding: 0 10px;
+        font-size: 16px;
+    }
+
+    #content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #content{
+        margin-top: 20px;
+        width: 90%;
+        margin: 10px 0;
+        height: auto;
+    }
+
+    footer {
+        height: auto;
+        padding: 20px;
+    }
+
+    footer p {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
     }
 }
