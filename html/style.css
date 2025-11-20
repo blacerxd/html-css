@@ -1,0 +1,41 @@
+/* div{
+    width: 300px;
+    height: 300px;
+} */
+body{
+    height: 200vh;
+}
+
+.static{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+.relative{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: chartreuse;
+}
+.container{
+    position: relative;
+    width: 700px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.absolute{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    top: 20px;
+    left: 20px;
+}
+.fixed{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: fixed;
+}
