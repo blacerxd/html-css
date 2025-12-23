@@ -1,0 +1,216 @@
+header{
+/* Шапка (header) */
+    position: relative;
+    max-width: 1920px;
+    border-bottom: 2px solid #ccc;
+    padding: 45px 0;
+    background: #FFFFFF;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    width: 109px;
+    height: 31px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 143%;
+
+    display: flex;
+    align-items: center;
+
+    color: #2E363E;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    transition: color 0.3s ease;
+}
+h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    background-color: #ff3333;
+    transition: width 0.3s ease;
+}
+h1:hover {
+    color: #ff3333;
+}
+
+h1:hover::after {
+  width: 100%;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 17px;
+
+    position: absolute;
+    width: 171px;
+    height: 45px;
+    left: 370px;
+    top: 37px;
+}
+.email-adress{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 59px;
+
+    position: absolute;
+    width: 380px;
+    height: 36px;
+    left: 870px;
+    top: 42px;
+}
+
+.email{
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 12px;
+    gap: 12px;
+
+    width: 138px;
+    height: 19px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.email_logo{
+    width: 17px;
+    height: 17px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.adress{
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 183px;
+    height: 36px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+p, h2{
+    width: 169px;
+    height: 18px;
+    margin: 0;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+    display: flex;
+    align-items: center;
+
+    color: #2E363E;
+}
+
+address{
+    width: 154px;
+    height: 36px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+    color: #2E363E;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+
+    position: absolute;
+    width: 222px;
+    height: 46px;
+    left: 1328px;
+    top: 37px;
+}
+
+.tele{
+    width: 171px;
+    height: 28px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 152%;
+
+    display: flex;
+    align-items: center;
+    color: #2E363E;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nad{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    padding: 10px 18px;
+    gap: 10px;
+
+    width: 149px;
+    height: 37px;
+
+    justify-content: center;
+/* Серый 11 */
+    background: #F2F6FA;
+    border-radius: 5px;
+}
+
+.content-1{
+/* Auto layout */
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+/* padding: 100px 370px; */
+    gap: 60px;
+
+/* position: absolute; */
+    width: 1920px;
+    height: 656px;
+
+    background: #FFFFFF;
+}
